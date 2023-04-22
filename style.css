@@ -87,7 +87,7 @@ body
 {
     padding: 100px 0;
     position: fixed;
-    width: 200px;
+    width: 150px;
     height: 100vh;
     top: 0;
     right: 0;
@@ -332,7 +332,13 @@ body
     {
         display: grid;
         grid-template-columns: repeat(1,1fr);
-    }     
+        padding-left: 15%;
+    }  
+    .match-container
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }    
 
 @media screen and (min-width: 500px) and (max-width: 1000px)
