@@ -319,6 +319,7 @@ body
     {
         margin-bottom: 50px;
     }
+
     .blog-images
     {
         display: grid;
@@ -332,8 +333,9 @@ body
     {
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        padding-left: 15%;
+        justify-content: center;
     }  
+
     .match-container
     {
         display: grid;
